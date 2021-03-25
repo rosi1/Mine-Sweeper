@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+}
+h1{
+    color: rgb(224, 77, 77);
+}
+table{
+    margin: auto;
+}
+
+table tbody{
+    background-image: url(/img/bomb_trans.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 250px;
+
+ }
+
+.board td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.board td:hover {
+    background-color: lightsalmon;
+    cursor: pointer;
+}
+
+td.matCell {
+    background-color: lightgray;
+}
+
+#container{
+    text-align: center;
+}
+
+.timer-div{
+    float: left;
+    
+}
+.start-btn{
+    float: left;
+
+}
+.lives{
+    float: left;
+}
