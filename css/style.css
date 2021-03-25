@@ -9,7 +9,7 @@ table{
 }
 
 table tbody{
-    background-image: url(/img/bomb_trans.png);
+    background-image: url(../img/bomb_trans.png);
     background-repeat: no-repeat;
     background-position: center; 
     background-size: 250px;
