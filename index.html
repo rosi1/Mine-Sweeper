@@ -8,16 +8,24 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body onload="initGame()" oncontextmenu="return false;">
-    <h1>Mine Sweeper</h1>
+    <h1><img class ="icon" src="img/moves2.gif">Mine Sweeper <img class ="icon" src="img/moves2.gif"></h1>
+    <!-- <hr> -->
+    <br>
     <div class="all-btns">
         <button class="easy btn" onclick="playLevel(this)"> Easy</button>
         <button class="medium btn" onclick="playLevel(this)">Medium</button>
         <button class="expert btn" onclick="playLevel(this)">Expert</button>
     </div>
     <br>
-    
-    <!-- <h2>Score: <span>0</span></h2> -->
-    <!-- <div class="board-container"></div> -->
+    <div class="all-icons">
+    <button class= "mines-div">💣 : <span>2</span></button>
+    <button class= "timer-div">⏱ : <span>0</span></button>
+    <button class="lives">🖤 : <span>1</span></button>
+    <br> 
+    <button class="start-btn" onclick="playAgain(this)"><span>🙂</span></button>
+    </div>
+    <br>
+
     <table border="1" cellpadding="10">
         <tbody class="board"></tbody>
     </table>

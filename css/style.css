@@ -2,8 +2,20 @@ body{
     text-align: center;
 }
 h1{
-    color: rgb(224, 77, 77);
+    color: rgb(71, 66, 61);
+    font-family:fantasy;
 }
+.icon{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    /* float: right; */
+}
+.all-icons {
+    font-size: 18px;
+    
+}
+/* .start-btn {border: rgb(243, 127, 19) 5px solid;} */
 table{
     margin: auto;
 }
@@ -13,14 +25,13 @@ table tbody{
     background-repeat: no-repeat;
     background-position: center; 
     background-size: 250px;
-
  }
 
 .board td {
     width: 40px;
     height: 40px;
     text-align: center;
-    transition: 0.5s;
+    /* transition: 0.4s; */
 }
 
 .board td:hover {
@@ -30,20 +41,4 @@ table tbody{
 
 td.matCell {
     background-color: lightgray;
-}
-
-#container{
-    text-align: center;
-}
-
-.timer-div{
-    float: left;
-    
-}
-.start-btn{
-    float: left;
-
-}
-.lives{
-    float: left;
 }
