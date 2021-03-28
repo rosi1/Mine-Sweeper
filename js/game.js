@@ -3,7 +3,7 @@
 const MINE = '💣';
 const FLAG= '🏴‍☠️';
 const EMPTY= ' ';
-const NORMAL_SMILEY= '🙂';
+const NORMAL_SMILEY= '👨🏻‍🌾';
 const LOSE_SMILEY= '💀';
 const VICTORY= '🏆';
 const NOT_SHOWN='🎁';
