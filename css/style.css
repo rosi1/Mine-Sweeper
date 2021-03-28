@@ -1,9 +1,15 @@
 body{
     text-align: center;
+    /* background-color: rgb(163, 12, 12); */
+    /* background-image: url(../img/zone4.jpeg) ; */
+    background-repeat: no-repeat;
+     background-size: 1400px;
 }
 h1{
     color: rgb(71, 66, 61);
     font-family:fantasy;
+    font-size: 62px;
+    margin-top:0 ;
 }
 .icon{
     border-radius: 50%;
@@ -11,20 +17,40 @@ h1{
     width: 100px;
     /* float: right; */
 }
-.all-icons {
-    font-size: 18px;
-    
+.all-btns{
+    float: right;
 }
+
+.mines{
+    border-style: none;
+    background-color: white;
+}
+.timer{
+    border-style: none;
+    background-color: white;
+}
+.lives{
+    border-style: none;
+    background-color: white;
+}
+
+.hints{
+    float:left;
+}
+/* .help-btn{
+    float: left;
+} */
 /* .start-btn {border: rgb(243, 127, 19) 5px solid;} */
 table{
     margin: auto;
 }
 
 table tbody{
-    background-image: url(../img/bomb_trans.png);
+    background-image: url(../img/bg.jpeg);
     background-repeat: no-repeat;
     background-position: center; 
     background-size: 250px;
+    background-color: white;
  }
 
 .board td {
@@ -41,4 +67,20 @@ table tbody{
 
 td.matCell {
     background-color: lightgray;
+}
+.moves{
+    width: 50px;
+    height: 50px;
+}
+.clock{
+    width: 50px;
+    height: 50px;
+}
+.heart{
+    width: 50px;
+    height: 50px;
+}
+.pirate{
+    width: 50px;
+    height: 50px;
 }

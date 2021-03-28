@@ -13,7 +13,7 @@ function renderExplodedCell(i, j, value) {
 }
 
 function renderTimer(value) {
-    var elTimer = document.querySelector(`.timer-div span`);
+    var elTimer = document.querySelector(`.timer span`);
     elTimer.innerText = value;
 }
 
@@ -23,3 +23,9 @@ function renderCellClickRight(i, j, value) {
     elCell.classList.add('hidden');
 }
 
+function renderHintCell(i, j, value) {
+    var elCell = document.querySelector(`[data-i="${i}"][data-j="${j}"]`);
+    elCell.innerText = value;
+    elCell.style.fontWeight = "bold";
+    
+}
